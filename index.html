@@ -1,6 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #000;
+    touch-action: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  canvas {
+    max-width: 100%;
+    max-height: 60vh !important;
+    width: auto !important;
+    height: auto !important;
+    object-fit: contain;
+    display: block;
+  }
+</style>
+
+    
     <link rel="manifest" href="manifest.json">
 
     <meta charset="UTF-8">
