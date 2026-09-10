@@ -3,7 +3,7 @@
   "short_name": "Soldado 2D",
   "description": "Jogo de ação 2D com aliados, hordas e chefões",
   "start_url": "./index.html",
-  "display": "standalone",
+  "display": "fullscreen",
   "orientation": "landscape",
   "background_color": "#010103",
   "theme_color": "#1a0f1a",
