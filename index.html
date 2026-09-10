@@ -31,21 +31,23 @@
       display: block;
     }
 
-    .controles, #controles, [class*="control"] {
-      position: absolute !important;
-      bottom: 10px !important;
-      left: 0 !important;
-      width: 100% !important;
-      display: flex !important;
-      justify-content: space-between !important;
-      padding: 0 20px !important;
-      pointer-events: none !important;
-      z-index: 10 !important;
-    }
+      /* Ajuste correto para os controles flutuarem sobre a tela */
+  #mobile-controls, .controles, #controles {
+    position: absolute !important;
+    bottom: 10px !important;
+    left: 0 !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    padding: 0 20px !important;
+    pointer-events: none !important;
+    z-index: 10 !important;
+  }
 
-    .controles *, #controles *, [class*="control"] * {
-      pointer-events: auto !important;
-    }
+  #mobile-controls *, .controles *, #controles * {
+    pointer-events: auto !important;
+  }
+
   </style>
 </head>
 <body>
