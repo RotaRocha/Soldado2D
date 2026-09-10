@@ -1,0 +1,24 @@
+{
+  "name": "Soldado 2D HD: Apocalipse Sombrio",
+  "short_name": "Soldado 2D",
+  "description": "Jogo de ação 2D com aliados, hordas e chefões",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#010103",
+  "theme_color": "#1a0f1a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
